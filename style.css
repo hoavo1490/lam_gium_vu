@@ -1,0 +1,225 @@
+/* colors
+ #ED1C5B; light 
+ #E20E4E; dark
+*/
+
+/* reset */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar start here  */
+.sidebar {
+  position: fixed;
+  background: #f44336;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: auto;
+  top: auto;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #f44336;
+  padding: 80px 24px;
+  font-weight: bold;
+}
+
+.items {
+  margin: 25px 0;
+}
+
+.items a {
+  color: #ffffff;
+  padding: 0 30px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.items a:hover {
+  color: #000000;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+
+/* Sidebar end Here  */
+
+/* Main Content Section Start Here  */
+
+.main-content {
+  margin-left: 340px;
+  margin-right: 40px;
+  padding: 5px;
+}
+
+.main-content h2 {
+  font-size: 48px;
+  color: #f44336;
+}
+
+.thumbnail img {
+  height: 380px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 20px;
+  /* margin-left: ; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.member .column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  /* margin-left: ; */
+}
+
+/* Clear floats after the columns */
+.member .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.member-box {
+  background-color: #f1f1f1;
+}
+
+.member-box img {
+  height: 300px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.member-box h3 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.member-box p {
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card h3 {
+    color: #fff;
+    background-color: #616161;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight:lighter;
+    text-align: center;
+    margin: 0;
+}
+
+.card p {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;  
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;  
+    text-align: center;
+}
+
+.basic-button {
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    transition-duration: 0.4s;
+    color: black;
+    background-color: #fff;
+}
+
+.basic-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.premium-button {
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    transition-duration: 0.4s;
+    color: #fff;
+    background-color: #f44336;
+}
+
+.premium-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.divider {
+    width: 50px;
+    height: 5px;
+    border-color: #f44336;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+form p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #5c5c5c;
+}
+
+form input {
+    width: 100%;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+form input::placeholder {
+    padding: 0 0 0 0    ;
+}
+
+.submit-button {
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    transition-duration: 0.4s;
+    color: #fff;
+    background-color: #f44336;
+
+}
