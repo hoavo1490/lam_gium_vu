@@ -214,6 +214,11 @@ form input::placeholder {
     padding: 0 0 0 0    ;
 }
 
+form textarea {
+    width: 100%;
+    border-color: black;
+    margin-bottom: 10px;   
+}
 .submit-button {
     width: 100%;
     height: 40px;
